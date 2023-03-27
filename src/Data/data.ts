@@ -1,0 +1,40 @@
+export const CardData = {
+  data: [
+    {
+      id: 0,
+      title: 'total booking',
+      number: 998,
+      progress: 50,
+      icon: 'userPlus',
+      backgroundColor: ' #9747FF',
+      progressBarColor: ' #FF5722',
+    },
+    {
+      id: 1,
+      title: 'available rooms',
+      number: 1537,
+      progress: 50,
+      backgroundColor: '#FF5722',
+      progressBarColor: '#9747FF',
+      icon: 'dollarIcon',
+    },
+    {
+      id: 2,
+      title: 'enquiry',
+      number: 760,
+      progress: 50,
+      backgroundColor: '#009688',
+      progressBarColor: '#2B7FFF',
+      icon: 'enquiryIcon',
+    },
+    {
+      id: 3,
+      title: 'collections',
+      number: 550,
+      progress: 50,
+      backgroundColor: '#FF3AD4',
+      progressBarColor: '#0DC200',
+      icon: 'worldIcon',
+    },
+  ],
+};

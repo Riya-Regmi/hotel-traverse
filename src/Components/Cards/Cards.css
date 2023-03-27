@@ -1,0 +1,41 @@
+/******** Cards Collection CSS ************/
+
+.cards-collection-text span {
+  font-size: 30px;
+  font-weight: 600;
+}
+.individual-cards {
+  padding-top: 35px;
+}
+
+/********Card csss***/
+.cards {
+  border-top-left-radius: 16px;
+}
+.cards-content {
+  padding: 15px;
+}
+.card-heading text {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+  text-transform: uppercase;
+}
+.card-heading span {
+  /* position: relative;
+  left: 65px; */
+  height: 50px;
+  width: 50px;
+}
+.card-heading span img {
+  height: 40px;
+  width: 40px;
+}
+.card-number span {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--white);
+}
+.card-progress-bar .ant-progress-bg {
+  height: 10px !important;
+}

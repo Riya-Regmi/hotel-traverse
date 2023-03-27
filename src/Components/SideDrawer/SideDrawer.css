@@ -1,0 +1,8 @@
+.ant-menu-light .ant-menu-item-selected {
+  color: var(--orange) !important;
+  background-color: var(--logoBG) !important;
+}
+.ant-menu-item-active,
+.ant-menu-submenu-active {
+  color: var(--darkBlue) !important;
+}

@@ -1,0 +1,77 @@
+.header {
+  background-color: var(--orange);
+}
+.header-content {
+  padding: 20px 15px;
+}
+.header-menu-icon-section img {
+  height: 30px;
+  width: 35px;
+  cursor: pointer;
+}
+.header-search-icon {
+  position: absolute;
+  top: 6px;
+  left: 25px;
+}
+.header-search-bar {
+  border-radius: 50px;
+  width: 100%;
+  padding: 6px 25px;
+  border: 1px solid var(--white);
+  outline: none;
+}
+.header-notifications-section {
+  text-align: right;
+}
+.header-individual-notification {
+  padding-right: 30px;
+}
+.header-notification-icon {
+  width: 25px;
+  height: 25px;
+}
+.header-notification-count {
+  background-color: var(--darkBlue);
+  color: var(--white);
+  font-size: 10px;
+  font-weight: 800;
+  padding: 1px 8px;
+  border-radius: 50%;
+  position: absolute;
+}
+.header-bell-notification-count-position {
+  top: -12px;
+  right: 195px;
+}
+.header-msg-notification-count-position {
+  top: -13px;
+  right: 140px;
+}
+.header-admin-section img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.header-admin-section span {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--white);
+}
+.header-dropdown-icon {
+  color: var(--white);
+}
+
+@media only screen and (max-width: 768px) {
+  .header-notifications-section {
+    padding-top: 20px;
+  }
+  .header-bell-notification-count-position {
+    top: 8px;
+    right: 195px;
+  }
+  .header-msg-notification-count-position {
+    top: 8px;
+    right: 140px;
+  }
+}
