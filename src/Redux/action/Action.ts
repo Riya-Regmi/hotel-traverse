@@ -1,7 +1,9 @@
 import { apis } from '../../apis/apiServices';
 
 export const getBarDataFromApis = () => {
-  return async (dispatch) => {
+  return async (
+    dispatch: (argument: { type: string; payload?: any }) => void
+  ) => {
     dispatch({ type: 'READ_DATA' });
     try {
       const response = await apis.getBarIncomeData();
@@ -17,7 +19,9 @@ export const getBarDataFromApis = () => {
 };
 
 export const getBarVisitorDataFromApis = () => {
-  return async (dispatch) => {
+  return async (
+    dispatch: (argument: { type: string; payload?: any }) => void
+  ) => {
     dispatch({ type: 'READ_DATA_VISITOR' });
     try {
       const response = await apis.getBarVisitorsData();

@@ -1,16 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { MainRoutes } from './Routes/MainRoutes';
 import { HashRouter } from 'react-router-dom';
+import { compose } from 'redux';
+
+declare global {
+  interface Window {
+    __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
+  }
+}
 
 function App() {
   return (
-    <>
-      <HashRouter>
-        <MainRoutes />
-      </HashRouter>
-    </>
+    <HashRouter>
+      <MainRoutes />
+    </HashRouter>
   );
 }
 

@@ -86,7 +86,7 @@ const Item = {
       key: 9,
       label: 'Tables',
       icon: <FontAwesomeIcon icon={faCalculator} />,
-      children: [],
+      children: [<FontAwesomeIcon icon={faCalculator} />],
       name: 'submenu',
     },
   ],

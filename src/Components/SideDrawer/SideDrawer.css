@@ -2,7 +2,11 @@
   color: var(--orange) !important;
   background-color: var(--logoBG) !important;
 }
-.ant-menu-item-active,
-.ant-menu-submenu-active {
+.ant-menu-item-active {
   color: var(--darkBlue) !important;
+}
+
+.ant-menu-submenu-title:hover {
+  color: var(--darkBlue) !important;
+  background-color: var(--logoBG) !important;
 }

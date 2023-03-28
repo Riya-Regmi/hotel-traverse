@@ -2,7 +2,10 @@ const initialState = {
   list: [],
 };
 
-const BarDataReducers = (state = initialState, action) => {
+const BarDataReducers = (
+  state = initialState,
+  action: { type: any; payload: any }
+) => {
   switch (action.type) {
     case 'READ_DATA_SUCCESS':
       const data = action.payload;
