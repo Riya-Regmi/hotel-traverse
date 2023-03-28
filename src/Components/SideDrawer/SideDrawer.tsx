@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
+import { Layout, Menu } from 'antd';
 import './SideDrawer.css';
 
 import Logo from '../../assests/logo/Logo.svg';

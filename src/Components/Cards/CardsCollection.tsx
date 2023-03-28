@@ -14,7 +14,10 @@ export const CardsCollection = ({}: CardsCollectionProps) => (
       <div className='row'>
         {CardData.data.map((data, i) => {
           return (
-            <div className='col-md-3'>
+            <div
+              className='col-md-3'
+              key={i}
+            >
               <Cards data={data} />
             </div>
           );

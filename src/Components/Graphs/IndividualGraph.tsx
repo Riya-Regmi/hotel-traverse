@@ -15,7 +15,6 @@ export const IndividualGraph = ({
     getWidth();
   }, []);
   const getWidth = () => {
-    console.log(graphcontainer.current?.offsetWidth);
     setGraphSize({
       width: graphcontainer.current?.offsetWidth,
       height: graphcontainer.current?.offsetHeight,
